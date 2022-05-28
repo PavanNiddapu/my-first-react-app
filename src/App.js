@@ -1,8 +1,11 @@
 import React from 'react';
+import ParallaxEffect from './parallex/ParallexEffect';
+
 
 function App() {
-  const value = 'World';
-  return <div>Hello {value}</div>;
+  return (
+    <ParallaxEffect />
+  );
 }
 
 export default App;
