@@ -1,0 +1,9 @@
+.slide-title {
+    fontFamily: "'MonumentExtended', sans-serif'";
+    color: '#b99e64';
+    textTransform: 'uppercase';
+    lineHeight: '1.5em';
+    fontSize: '14em';
+}
+
+/* A style to make h3 center */

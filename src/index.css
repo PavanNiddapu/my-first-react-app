@@ -1,0 +1,9 @@
+.slide-title-sub {
+    margin-bottom: 2.75rem;
+    font-size: 1.375rem;
+    font-family: 'MonumentExtended', sans-serif;
+    line-height: 1.45454545;
+    color: #111111;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+}
