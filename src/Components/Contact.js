@@ -5,7 +5,7 @@ const Contact = (props) => {
         <div className="container">
             <div className="row">
                 <div className="col-xl-7 col-lg-10" style={{
-                    marginTop: '30%',
+                    marginTop: '10%',
                 }}>
 
                     <div className="slide-title-sub">Software Developer,<br></br> TW, banglore</div>
