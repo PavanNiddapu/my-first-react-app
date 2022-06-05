@@ -2,6 +2,8 @@ import React from "react";
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import Heading from "../Components/Heading";
 import Contact from "../Components/Contact";
+import Card from "../Components/Card";
+import Experience from "../Components/Experience";
 const ParallaxEffect = () => {
 
     return (
@@ -55,10 +57,11 @@ const ParallaxEffect = () => {
                     border: 'solid 10px yellow',
                 }}>
                 <Heading name={"PROJECTS"} />
+                <Card />
             </ParallaxLayer>
 
-            <ParallaxLayer offset={2} speed={0.7}
-                factor={1}
+            <ParallaxLayer offset={2} speed={0.5}
+                factor={2}
                 style={{
                     // backgroundImage: `url(${img2})`,
                     backgroundSize: 'cover',
@@ -66,6 +69,7 @@ const ParallaxEffect = () => {
                     border: 'solid 10px blue',
                 }}>
                 <Heading name={"EXPERIENCE"} />
+                <Experience />
             </ParallaxLayer>
 
             <ParallaxLayer offset={3} speed={0.2}
