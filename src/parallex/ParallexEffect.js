@@ -3,7 +3,7 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import Heading from "../Components/Heading";
 import Contact from "../Components/Contact";
 import Card from "../Components/Card";
-import Experience from "../Components/Experience";
+import Experience from "../Components/SlideExperience/Experience";
 const ParallaxEffect = () => {
 
     return (
@@ -34,7 +34,7 @@ const ParallaxEffect = () => {
                     // backgroundImage: `url(${img1})`,
                     backgroundColor: '#f5f4f0',
                     backgroundSize: 'cover',
-                    border: 'solid 10px green',
+                    // border: 'solid 10px green',
                 }}>
                 <div class="container" style={{
                     marginTop: '30%',
@@ -54,7 +54,7 @@ const ParallaxEffect = () => {
                     // backgroundImage: `url(${img2})`,
                     backgroundSize: 'cover',
                     backgroundColor: '#f5f4f0',
-                    border: 'solid 10px yellow',
+                    // border: 'solid 10px yellow',
                 }}>
                 <Heading name={"PROJECTS"} />
                 <Card />
@@ -66,7 +66,7 @@ const ParallaxEffect = () => {
                     // backgroundImage: `url(${img2})`,
                     backgroundSize: 'cover',
                     backgroundColor: '#f5f4f0',
-                    border: 'solid 10px blue',
+                    // border: 'solid 10px blue',
                 }}>
                 <Heading name={"EXPERIENCE"} />
                 <Experience />
@@ -78,7 +78,7 @@ const ParallaxEffect = () => {
                     // backgroundImage: `url(${img2})`,
                     backgroundSize: 'cover',
                     backgroundColor: '#f5f4f0',
-                    border: 'solid 10px pink',
+                    // border: 'solid 10px pink',
                 }}>
                 <Heading name={"CONTACT"} />
                 <Contact />
