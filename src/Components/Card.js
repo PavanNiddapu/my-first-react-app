@@ -1,6 +1,5 @@
 import React from "react";
-import { Card as RBCard } from "react-bootstrap";
-import { Button } from "react-bootstrap";
+
 
 
 const Card = (props) => {
