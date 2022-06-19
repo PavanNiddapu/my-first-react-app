@@ -10,34 +10,35 @@ const ParallaxEffect = () => {
         <Parallax pages={4} style={{ top: '0', left: '0' }}>
             <ParallaxLayer
                 sticky={{ start: 0, end: 4 }}
-                speed={0.1}
                 style={{
                     // backgroundImage: `url(${img1})`,
-                    backgroundColor: '#f5f4f0',
+                    backgroundColor: '#f0eee5',
                     backgroundSize: 'cover',
-                    height: '15%'
-
-                }}
-                innerStyle={{
-                    padding: '0',
-                    margin: '0'
-
+                    height: '10%'
                 }}
             >
-                <h2>Name of the person</h2>
+                <div className="header-bg">
+                    <div className="name">
+                        <a href="#Myself">
+                            <div className="font-custom">Lalith Niddapu</div>
+                        </a>
+                    </div>
+                </div>
             </ParallaxLayer>
             <ParallaxLayer
                 offset={0}
-                speed={1}
-                factor={2}
+                // speed={1}
+                factor={1}
                 style={{
                     // backgroundImage: `url(${img1})`,
                     backgroundColor: '#f5f4f0',
                     backgroundSize: 'cover',
                     // border: 'solid 10px green',
+                    height: '25%'
+
                 }}>
                 <div class="container" style={{
-                    marginTop: '30%',
+                    marginTop: '18%',
                 }}>
                     <div class="row">
                         <div class="col-sm-6 col-10">
@@ -48,36 +49,41 @@ const ParallaxEffect = () => {
                 </div>
             </ParallaxLayer>
 
-            <ParallaxLayer offset={1} speed={0.5}
-                factor={2}
+            <ParallaxLayer
+                offset={1}
+                speed={0.2}
+                // factor={1}
                 style={{
                     // backgroundImage: `url(${img2})`,
                     backgroundSize: 'cover',
-                    backgroundColor: '#f5f4f0',
+                    backgroundColor: '#ffffff',
                     // border: 'solid 10px yellow',
+                    // height: '1%'
                 }}>
                 <Heading name={"PROJECTS"} />
                 <Card />
             </ParallaxLayer>
 
             <ParallaxLayer offset={2} speed={0.5}
-                factor={2}
-                style={{
-                    // backgroundImage: `url(${img2})`,
-                    backgroundSize: 'cover',
-                    backgroundColor: '#f5f4f0',
-                    // border: 'solid 10px blue',
-                }}>
-                <Heading name={"EXPERIENCE"} />
-                <Experience />
-            </ParallaxLayer>
-
-            <ParallaxLayer offset={3} speed={0.2}
                 factor={1}
                 style={{
                     // backgroundImage: `url(${img2})`,
                     backgroundSize: 'cover',
                     backgroundColor: '#f5f4f0',
+                    // border: 'solid 10px blue',
+                    height: '25%'
+                }}>
+                <Heading name={"EXPERIENCE"} />
+                <Experience />
+            </ParallaxLayer>
+
+            <ParallaxLayer offset={3}
+                speed={0.1}
+                factor={0.1}
+                style={{
+                    // backgroundImage: `url(${img2})`,
+                    backgroundSize: 'cover',
+                    backgroundColor: '#ffffff',
                     // border: 'solid 10px pink',
                 }}>
                 <Heading name={"CONTACT"} />

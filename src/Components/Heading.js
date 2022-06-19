@@ -8,7 +8,7 @@ const Heading = (props) => {
             textTransform: 'uppercase',
             lineHeight: '1.5em',
             fontSize: '4em',
-            marginTop: '5%'
+            marginTop: '0%'
 
         }}> {props.name}</h1 >
     )

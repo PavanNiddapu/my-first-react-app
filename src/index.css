@@ -180,3 +180,61 @@
         margin-left: 2rem;
     }
 }
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    padding: 50px;
+    font-size: 20px;
+}
+
+.header {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-top: 0;
+}
+
+.header .container-fluid {
+    color: #000000;
+    transition: color .3s ease-in-out;
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding-top: 2.75rem;
+        padding-bottom: 2.75rem;
+    }
+}
+
+.header-bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25%;
+    height: 0;
+    size: 20px;
+}
+
+.header-shadow .header-bg {
+    height: 100%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    float: left;
+    font-weight: bold;
+}
+
+.name a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.font-custom {
+    font-family: 'MonumentExtended', sans-serif;
+}
