@@ -20,7 +20,6 @@ function App() {
 
       <div className='page2 bg-color-alternate'>
         <Heading name="Awards" />
-        here comes my award cards
       </div>
 
       <div className='page3 bg-color'>
