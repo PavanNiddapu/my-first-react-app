@@ -2235,6 +2235,16 @@ a:hover .center-icon i {
     margin: 3px;
 }
 
+.page1,
+.page3 {
+    animation: fadeInRightL 3s ease-in-out;
+}
+
+.page2,
+.page4 {
+    animation: fadeInLeftL 3s ease-in-out;
+}
+
 .bg-color {
     background-color: #f4f4f3;
     /* background-color: #f9f8f4; */
@@ -2243,6 +2253,69 @@ a:hover .center-icon i {
 .bg-color-alternate {
     background-color: #ffffff;
 
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: rgb(244, 244, 243, 1);
+    /* background-color: #f0eee5e6 */
+    box-shadow: 0 5px 10px rgba(175, 175, 175, 0.9);
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    font-family: 'MonumentExtended', sans-serif;
+    font-size: 4rem;
+    color: #b99e64;
+    text-transform: uppercase;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 0px 10px;
+}
+
+/* My animations */
+
+@keyframes fadeInLeftL {
+    0% {
+        color: rgb(61, 114, 25);
+        opacity: 0;
+        transform: translate(-10px) rotate(0deg);
+    }
+
+    50% {
+        color: rgba(186, 227, 181, 0.634);
+        transform: translate(10px) rotate(0deg);
+    }
+
+    100% {
+        color: rgb(255, 255, 255);
+        opacity: 100;
+        transform: translate(0) rotate(0deg);
+    }
+}
+
+@keyframes fadeInRightL {
+    0% {
+        color: rgb(127, 248, 46);
+        opacity: 0;
+        transform: translate(100px);
+    }
+
+    50% {
+        color: rgba(48, 67, 46, 0.634);
+        transform: translate(-10px);
+    }
+
+    100% {
+        color: rgb(255, 255, 255);
+        opacity: 100;
+        transform: translate(0px);
+    }
 }
 
 /* 

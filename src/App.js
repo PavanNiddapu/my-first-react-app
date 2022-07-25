@@ -9,8 +9,11 @@ function App() {
   return (
     // <ParallaxEffect />
     <div className='page'>
-      <div className='page1 bg-color'>
-        <Heading name="Lalith" />
+      <div id='navbar' className='sticky .fadeInDown'>
+        <a >Lalith N</a>
+      </div>
+      <div className='page1 bg-color' >
+
         {/* <div className="header-bg">
         <div className="no-deco">
           <a href="#Myself"> Lalith Niddapu </a>
