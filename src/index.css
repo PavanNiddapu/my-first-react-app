@@ -2305,6 +2305,53 @@ a:hover .center-icon i {
     outline-offset: 10px;
 }
 
+
+/* Feature Box */
+.feature-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .1);
+    transition: transform .3s;
+    /* margin: 1px; */
+}
+
+.feature-box__text {
+    font-size: 1.2rem;
+    /* font-weight: 100; */
+}
+
+.feature-box__icon {
+    font-size: 3rem;
+    margin-bottom: .5rem;
+    display: inline-block;
+    background-image: linear-gradient(to right, rgb(141, 234, 244), rgb(79, 233, 8));
+    -webkit-background-clip: text;
+    color: transparent;
+
+
+    @include respond(tab-port) {
+        margin-bottom: 0;
+    }
+}
+
+.section-features {
+    padding: 20rem 0;
+}
+
+.feature-box:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+}
+
+.heading-tertiary {
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(23, 116, 235);
+}
+
 /* My animations */
 
 @keyframes fadeInLeftL {
