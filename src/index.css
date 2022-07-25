@@ -2235,6 +2235,7 @@ a:hover .center-icon i {
     font-size: 4rem;
     color: #b99e64;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .sticky {
