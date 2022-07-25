@@ -1,0 +1,240 @@
+.slide-title-sub {
+    margin-bottom: 2.75rem;
+    font-size: 1.375rem;
+    font-family: 'MonumentExtended', sans-serif;
+    line-height: 1.45454545;
+    color: #111111;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+}
+
+.slide-personal-awards .slide-bg {
+    /* background-image: url("../img/bg-personal-awards.png"); */
+}
+
+.slide-awards-circle1 {
+    width: 8.125rem;
+    height: 8.125rem;
+    left: -4.0625rem !important;
+    top: 50.92592593% !important;
+    bottom: auto !important;
+    right: auto !important;
+}
+
+.slide-awards-circle2 {
+    width: 45.3125rem;
+    height: 45.3125rem;
+    right: -15.625% !important;
+    top: 82.59259259% !important;
+    bottom: auto !important;
+    left: auto !important;
+}
+
+.award-item {
+    background: #e6decf;
+    border-radius: 1rem 1rem 3rem 1rem;
+    padding: 2.1875rem 2.5rem;
+}
+
+.award-list .award-item {
+    margin-top: 4rem;
+}
+
+.award-item-date {
+    margin-bottom: .625rem;
+    font-size: .875rem;
+    color: #999999;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.award-item-logo {
+    margin-bottom: .75rem;
+    height: 9rem;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+}
+
+.award-item-logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.award-item-title {
+    margin-bottom: 1rem;
+}
+
+.award-item-descr {
+    margin-bottom: 2rem;
+}
+
+.award-item-more {
+    font-size: 1.125rem;
+}
+
+@media (min-width: 992px) {
+    .award-list .award-item {
+        height: calc(100% - 4rem);
+    }
+}
+
+
+
+.slide-experience-image1 {
+    width: 15.5rem;
+    height: 15.5rem;
+    /* background-image: url("../img/bg-personal-experience-glasses.png"); */
+    background-size: contain;
+    position: absolute;
+    top: 7.5% !important;
+    right: 3.125% !important;
+    bottom: auto !important;
+    left: auto !important;
+}
+
+.slide-experience-image2 {
+    width: 41.3125rem;
+    height: 31.25rem;
+    /* background-image: url("../img/bg-personal-experience-device.png"); */
+    background-size: contain;
+    position: absolute;
+    top: 81.94444444% !important;
+    right: 8.59375% !important;
+    bottom: auto !important;
+    left: auto !important;
+}
+
+.slide-experience-image3 {
+    width: 42.875rem;
+    height: 39.4375rem;
+    /* background-image: url("../img/bg-personal-experience-briefcase.png"); */
+    background-size: contain;
+    position: absolute;
+    top: 27% !important;
+    right: 89% !important;
+    bottom: auto !important;
+    left: auto !important;
+}
+
+.experience-item:not(:first-child) {
+    border-top: #e1ddd6 1px solid;
+}
+
+.experience-item {
+    padding-top: 1.625rem;
+}
+
+.experience-item-company,
+.experience-item-title,
+.experience-item-descr {
+    margin-bottom: 1.625rem;
+}
+
+.experience-item-title {
+    margin-right: 1rem;
+}
+
+.experience-item-date {
+    margin-top: .3125rem;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.experience-item-descr {
+    margin-top: 2px;
+    min-height: 5em;
+}
+
+.company-blue {
+    color: #1774eb;
+}
+
+.company-pink {
+    color: #f73163;
+}
+
+.company-green {
+    color: #1dd05d;
+}
+
+.carousel-experience {
+    position: relative;
+}
+
+.carousel-nav {
+    margin-right: -.625rem;
+}
+
+.carousel-nav .owl-next {
+    margin-left: .5rem;
+}
+
+.slide-personal-experience .slide-btn {
+    margin-top: 3.88888889vmin;
+}
+
+@media (min-width: 768px) {
+    .carousel-nav .owl-next {
+        margin-left: 2rem;
+    }
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    padding: 50px;
+    font-size: 20px;
+}
+
+.header {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-top: 0;
+}
+
+.header .container-fluid {
+    color: #000000;
+    transition: color .3s ease-in-out;
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding-top: 2.75rem;
+        padding-bottom: 2.75rem;
+    }
+}
+
+.header-bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25%;
+    height: 0;
+    size: 20px;
+}
+
+.header-shadow .header-bg {
+    height: 100%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    float: left;
+    font-weight: bold;
+}
+
+.name a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.font-custom {
+    font-family: 'MonumentExtended', sans-serif;
+}
