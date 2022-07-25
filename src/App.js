@@ -9,7 +9,7 @@ function App() {
   return (
     <div className='page'>
       <div id='navbar' className='sticky .fadeInDown'>
-        <a>Lalith N</a>
+        <a href='./'>Lalith N</a>
       </div>
 
       <div className='page1 bg-color' >
