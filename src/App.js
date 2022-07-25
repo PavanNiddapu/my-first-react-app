@@ -1,15 +1,12 @@
 import React from 'react';
 import Awards from './Components/Awards';
 import Contact from './Components/Contact';
-import Heading from './Components/Heading';
 import Landing from './Components/Landing';
 import Experience from './Components/SlideExperience/Experience';
-import ParallaxEffect from './parallex/ParallexEffect';
 
 
 function App() {
   return (
-    // <ParallaxEffect />
     <div className='page'>
       <div id='navbar' className='sticky .fadeInDown'>
         <a>Lalith N</a>
