@@ -13,16 +13,15 @@ function App() {
         <a >Lalith N</a>
       </div>
       <div className='page1 bg-color' >
-
-        {/* <div className="header-bg">
-        <div className="no-deco">
-          <a href="#Myself"> Lalith Niddapu </a>
-        </div>
-      </div> */}
         <div class="row">
           <div class="col-sm-6 col-10">
             <h3 className="slide-title-sub"><font color="#b99e64" size="3px">Software Employee, at TW </font><br></br> <font size="1px">Domains: BlockChain, AI, Cloud, Machine Learning, Backend Engineering</font></h3>
             <h3 className="slide-title-sub"><font color="#b99e64" size="3px">Focus on Reactive Stack</font></h3>
+          </div>
+          <div className="composition">
+            <img id='profile-img' src="logo192.png" />
+            <img id='profile-img' src="logo192.png" />
+            <img id='profile-img' src="logo192.png" />
           </div>
         </div>
       </div>

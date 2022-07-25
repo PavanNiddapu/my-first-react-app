@@ -2278,6 +2278,33 @@ a:hover .center-icon i {
     padding: 0px 10px;
 }
 
+/* Profile images */
+
+.composition {
+    text-align: center;
+}
+
+.composition:hover #profile-img:not(:hover) {
+    transform: scale(.9);
+    transition: all .5s;
+}
+
+#profile-img {
+    display: inline-block;
+    margin: 5px 20px;
+    padding: 5px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .4);
+    /* border: 1px solid #CCC; */
+}
+
+#profile-img:hover {
+    transform: scale(1.05) translateY(-.5rem);
+    box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, .5);
+    transition: all .5s;
+    outline: .5rem solid rgb(136, 141, 142);
+    outline-offset: 10px;
+}
+
 /* My animations */
 
 @keyframes fadeInLeftL {
@@ -2317,12 +2344,3 @@ a:hover .center-icon i {
         transform: translate(0px);
     }
 }
-
-/* 
-.page3 {
-    background-color: #ffffff;
-}
-
-.page4 {
-    background-color: #ffffff;
-} */
