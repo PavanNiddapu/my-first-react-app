@@ -1,4 +1,5 @@
 import React from 'react';
+import Awards from './Components/Awards';
 import Contact from './Components/Contact';
 import Heading from './Components/Heading';
 import Landing from './Components/Landing';
@@ -19,42 +20,7 @@ function App() {
       </div>
 
       <div className='page2 bg-color-alternate'>
-        <Heading name="Awards" />
-        <div className='row'>
-          <div className='col-lg-3 col-md-3 feature-box'>
-            <i className='icon-basic-world feature-box__icon' />
-            <h3 className='heading-tertiary'>Expore the world</h3>
-            <p className='feature-box__text'>
-              A sample text in a feature box
-            </p>
-          </div>
-          <div className='col-lg-3 col-md-3 feature-box'>
-            <i className='icon-basic-map feature-box__icon' />
-            <h3 className='heading-tertiary'>Expore the world</h3>
-            <p className='feature-box__text'>
-              A sample text in a feature box
-              A sample text in a feature box
-              A sample text in a feature box
-              A sample text in a feature box
-
-            </p>
-          </div>
-          <div className='col-lg-3 col-md-3 feature-box'>
-            <i className='icon-basic-heart feature-box__icon' />
-            <h3 className='heading-tertiary'>Expore the world</h3>
-            <p className='feature-box__text'>
-              A sample text in a feature box
-            </p>
-          </div>
-          <div className='col-lg-3 col-md-3 feature-box'>
-            <i className='icon-basic-compass feature-box__icon' />
-            <h3 className='heading-tertiary'>Expore the world</h3>
-            <p className='feature-box__text'>
-              A sample text in a feature box
-            </p>
-          </div>
-
-        </div>
+        <Awards />
       </div>
 
       <div className='page3 bg-color'>
