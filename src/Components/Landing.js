@@ -7,7 +7,7 @@ const Landing = (props) => {
                 <h3 className="slide-title-sub"><font color="#b99e64" size="3px">{"Collector & District Magistrate"}</font></h3>
                 <h3 className="slide-title-sub-domain">
                     <font> Domains:</font>
-                    <font size="1px"> Agriculture, Health, Education, Irrigation, Social Welfare, Energy</font>
+                    <font size="1px"> Agriculture, Health, Education, Irrigation, Social Welfare, Energy,</font>
                     <br></br>
                     <font>Welfare Schemes, E-Governance</font>
                 </h3>
