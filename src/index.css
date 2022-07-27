@@ -7,20 +7,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-@font-face {
-    font-family: 'MonumentExtended';
-    src: url('/src/fonts/monumentextended-regular-webfont.woff2') format('woff2'),
-        url('/src/fonts/monumentextended-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Sawarabi+Mincho&family=Tiro+Telugu&display=swap');
+
+
 
 html {
     font-size: 12px;
 }
 
 body {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Tiro Telugu', sans-serif;
     color: #000000;
 }
 
@@ -89,7 +86,7 @@ a.text-primary:hover {
 /* 1.2 Typography */
 
 .font-custom {
-    font-family: 'MonumentExtended', sans-serif;
+    font-family: 'Tiro Telugu', sans-serif;
 }
 
 .text-primary {
@@ -1032,7 +1029,7 @@ label.error {
     margin-bottom: 1rem;
     position: relative;
     z-index: 200;
-    font-family: 'MonumentExtended', sans-serif;
+    font-family: 'Tiro Telugu', sans-serif;
     font-size: 1.125rem;
     color: #999999;
     transition: color .3s ease-in-out;
@@ -1072,7 +1069,7 @@ label.error {
 .slide-title {
     margin-bottom: 2rem;
     font-size: 6vmin;
-    font-family: 'MonumentExtended', sans-serif;
+    font-family: 'Tiro Telugu', sans-serif;
     line-height: 1;
     color: #b99e64;
     text-transform: uppercase;
@@ -1092,7 +1089,7 @@ label.error {
 .slide-title-sub {
     margin-bottom: 1.5rem;
     font-size: 1.375rem;
-    font-family: 'MonumentExtended', sans-serif;
+    font-family: 'Tiro Telugu', sans-serif;
     line-height: 1.45454545;
     color: #111111;
     text-transform: uppercase;
@@ -1746,7 +1743,7 @@ label.error {
 .client-item-title {
     margin-bottom: .625rem;
     font-size: 2.125rem;
-    font-family: 'MonumentExtended';
+    font-family: 'Tiro Telugu';
     line-height: .94117647;
 }
 
@@ -2139,7 +2136,7 @@ a:hover .center-icon i {
 }
 
 .modal-title {
-    font-family: 'MonumentExtended', sans-serif;
+    font-family: 'EB Garamond', sans-serif;
     font-size: 2rem;
     color: #b99e64;
     text-transform: uppercase;
@@ -2231,7 +2228,7 @@ a:hover .center-icon i {
 #navbar a {
     float: left;
     display: block;
-    font-family: 'MonumentExtended', sans-serif;
+    font-family: 'EB Garamond', sans-serif;
     font-size: 2.7rem;
     color: #b99e64;
     text-transform: uppercase;
@@ -2289,6 +2286,7 @@ a:hover .center-icon i {
 
 .feature-box__text {
     font-size: 1.2rem;
+    font-family: 'Tiro Telugu', sans-serif;
     /* font-weight: 100; */
 }
 
@@ -2315,7 +2313,8 @@ a:hover .center-icon i {
 }
 
 .heading-tertiary {
-    font-size: 1.4rem;
+    font-family: 'Tiro Telugu', sans-serif;
+    font-size: 1.2rem;
     font-weight: 500;
     text-transform: uppercase;
     color: rgb(23, 116, 235);
