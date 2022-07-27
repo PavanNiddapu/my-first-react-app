@@ -2282,7 +2282,7 @@ a:hover .center-icon i {
     transform: scale(1.05) translateY(-.5rem);
     box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, .5);
     transition: all .5s;
-    outline: .5rem solid rgb(136, 141, 142);
+    outline: .5rem solid rgb(185, 158, 100, 0.8);
     outline-offset: 10px;
 }
 
