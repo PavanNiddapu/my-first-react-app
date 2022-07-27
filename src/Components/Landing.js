@@ -3,7 +3,7 @@ import React from "react";
 const Landing = (props) => {
     return (
         <div class="row">
-            <div class="col-sm-3 col-lg-9 col-md-7">
+            <div class="col-sm-9 col-lg-9 col-md-9">
                 <h3 className="slide-title-sub"><font color="#b99e64" size="3px">{"Collector & District Magistrate"}</font></h3>
                 <h3 className="slide-title-sub-domain">
                     <font> Domains:</font>
