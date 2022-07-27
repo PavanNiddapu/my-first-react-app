@@ -9,10 +9,10 @@ const Awards = (props) => {
             <Heading name="Awards" />
 
             <div className="row">
-                <Award title="Explore the World" content="This is some sample content" icon="icon-basic-world" />
-                <Award title="Explore the World" content="This is some sample content" icon="icon-basic-book" />
-                <Award title="Explore the World" content={para} icon="icon-basic-map" />
-                <Award title="Explore the World" content="This is some sample content" icon="icon-basic-heart" />
+                <Award title="Skoch Award" content="Ease of doing business" icon="icon-basic-world" />
+                <Award title="Award 2 name here" content="Award Description" icon="icon-basic-book" />
+                <Award title="Award 3 name here" content="Award Description" icon="icon-basic-notebook-pen" />
+                <Award title="Award 4 name here" content="Award Description" icon="icon-basic-notebook" />
             </div>
         </div>
     )
