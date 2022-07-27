@@ -1096,6 +1096,17 @@ label.error {
     letter-spacing: .025em;
 }
 
+.slide-title-sub-domain {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    font-family: 'Tiro Telugu', sans-serif;
+    line-height: 1.45454545;
+    color: #111111;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+}
+
+
 .text-white .slide-title-sub {
     color: #ffffff;
 }
