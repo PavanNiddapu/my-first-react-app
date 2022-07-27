@@ -9,7 +9,7 @@ const ExperienceItem = (props) => {
 
                 </div>
                 <div class="col-md-4">
-                    <div class="experience-item-company slide-title-sub company-blue">{props.company}<br></br>{props.title}</div>
+                    <div class={"experience-item-company slide-title-sub " + props.color}>{props.company}<br></br>{props.title}</div>
                 </div>
                 <div class="col-md-4">
                     <div class="experience-item-title slide-title-sub">{props.location}</div>

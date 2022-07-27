@@ -1660,6 +1660,10 @@ label.error {
     color: #f73163;
 }
 
+.company-indigo {
+    color: indigo;
+}
+
 .company-green {
     color: #1dd05d;
 }
