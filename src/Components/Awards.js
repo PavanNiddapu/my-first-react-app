@@ -3,7 +3,7 @@ import Award from "./Award";
 import Heading from "./Heading";
 
 const Awards = (props) => {
-    let para = "This is some sample content  This is some sample content This is some sample content"
+    // let para = "This is some sample content  This is some sample content This is some sample content"
     return (
         <div>
             <Heading name="Awards" />

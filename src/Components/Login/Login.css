@@ -1,0 +1,38 @@
+.PortfolioTitle {
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(96, 230, 245), rgb(80, 191, 28));
+    color: rgb(51, 51, 207);
+    margin: 0px 10%;
+}
+
+.PortfolioWishes {
+    margin: 10px 10%;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(96, 230, 245), rgb(80, 191, 28));
+    color: rgb(51, 51, 207);
+}
+
+.PortfolioWisher {
+    justify-content: right;
+    /* display: inline-block; */
+    text-align: right;
+    margin-right: 30%;
+}
+
+.Login {
+    padding: 10% 5%;
+    /* display: inline-block; */
+    margin: 10px 10%;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(96, 230, 245), rgb(80, 191, 28));
+
+}
+
+
+.userName,
+.password {
+    padding-bottom: 15px;
+}
