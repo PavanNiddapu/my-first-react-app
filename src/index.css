@@ -91,6 +91,7 @@ a.text-primary:hover {
 
 .text-primary {
     color: #b99e64 !important;
+    text-decoration: none;
 }
 
 .text-success,
